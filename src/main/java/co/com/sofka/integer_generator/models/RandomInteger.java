@@ -49,4 +49,14 @@ public class RandomInteger {
     public void setRandomList(String randomList) {
         this.randomList = randomList;
     }
+
+    @Override
+    public String toString() {
+        return "RandomInteger{" +
+                "date=" + date +
+                ", id='" + id + '\'' +
+                ", orginalList='" + orginalList + '\'' +
+                ", randomList='" + randomList + '\'' +
+                '}';
+    }
 }
